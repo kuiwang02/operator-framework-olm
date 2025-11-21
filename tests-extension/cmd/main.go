@@ -270,8 +270,8 @@ func main() {
 	// 3 - Remove the test in your test file.
 	// 4 - Run make build-update
 	ext.IgnoreObsoleteTests(
-	// "[sig-operator] OLMv0 should pass a trivial sanity check",
-	// Add more removed test names below
+		// "[sig-operator] OLMv0 should pass a trivial sanity check",
+		// Add more removed test names below
 	)
 
 	// Initialize the environment before running any tests.
