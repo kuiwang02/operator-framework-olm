@@ -856,7 +856,6 @@
     "originalName": "[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45381-[Skipped:Disconnected]Support custom catalogs in hypershift",
     "labels": {
       "Extended": {},
-      "NonHyperShiftHOST": {},
       "original-name:[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45381-[Skipped:Disconnected]Support custom catalogs in hypershift": {}
     },
     "resources": {
@@ -864,16 +863,13 @@
     },
     "source": "openshift:payload:olmv0",
     "lifecycle": "blocking",
-    "environmentSelector": {
-      "exclude": "topology==\"External\""
-    }
+    "environmentSelector": {}
   },
   {
     "name": "[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45408-[OTP][Skipped:Disconnected]Eliminate use of imagestreams in catalog management",
     "originalName": "[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45408-[Skipped:Disconnected]Eliminate use of imagestreams in catalog management",
     "labels": {
       "Extended": {},
-      "NonHyperShiftHOST": {},
       "original-name:[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45408-[Skipped:Disconnected]Eliminate use of imagestreams in catalog management": {}
     },
     "resources": {
@@ -881,24 +877,19 @@
     },
     "source": "openshift:payload:olmv0",
     "lifecycle": "blocking",
-    "environmentSelector": {
-      "exclude": "topology==\"External\""
-    }
+    "environmentSelector": {}
   },
   {
     "name": "[sig-operator][Jira:OLM] OLMv0 on hypershift mgmt PolarionID:45543-[OTP][Skipped:Disconnected]Enable hypershift to deploy OperatorLifecycleManager resources",
     "labels": {
-      "Extended": {},
-      "NonHyperShiftHOST": {}
+      "Extended": {}
     },
     "resources": {
       "isolation": {}
     },
     "source": "openshift:payload:olmv0",
     "lifecycle": "blocking",
-    "environmentSelector": {
-      "exclude": "topology==\"External\""
-    }
+    "environmentSelector": {}
   },
   {
     "name": "[sig-operator][Jira:OLM] OLMv0 on microshift PolarionID:69867-[OTP][Skipped:Disconnected]deployed in microshift and install one operator with single mode.",
